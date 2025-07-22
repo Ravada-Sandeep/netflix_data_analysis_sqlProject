@@ -15,3 +15,4 @@ CREATE TABLE IF NOT EXISTS netflix (
     listed_in TEXT,
     description TEXT
 );
+SELECT * FROM netflix;
