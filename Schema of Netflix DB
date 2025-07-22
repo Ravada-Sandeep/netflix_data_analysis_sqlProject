@@ -1,6 +1,5 @@
-## Schema
+--SCHEMA OF NETFLIX DB
 
-```sql
 CREATE DATABASE  netflixdata;
 CREATE TABLE IF NOT EXISTS netflix (
     show_id VARCHAR(20),
@@ -16,4 +15,3 @@ CREATE TABLE IF NOT EXISTS netflix (
     listed_in TEXT,
     description TEXT
 );
-```
